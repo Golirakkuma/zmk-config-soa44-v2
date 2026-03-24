@@ -81,19 +81,19 @@
 
         FUNCTION {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET   &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&trans     &kp F1           &kp F2       &kp F3    &kp F4      &kp F5       &trans      &kp PAGE_UP    &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-&trans     &kp F6           &kp F7       &kp F8    &kp F9      &kp F10      &trans      &kp LEFT       &kp PAGE_DOWN  &kp RIGHT             &trans                 &trans
-           &kp F11          &kp F12      &trans    &trans      &trans       &kp DELETE  &trans                                              &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET   &kp AMPERSAND       &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&trans     &kp F1           &kp F2       &kp F3    &kp F4      &kp F5       &trans      &kp PAGE_UP         &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
+&trans     &kp F6           &kp F7       &kp F8    &kp F9      &kp F10      &trans      &kp LA(LEFT_ARROW)  &kp PAGE_DOWN  &kp LA(RIGHT_ARROW)   &trans                 &trans
+           &kp F11          &kp F12      &trans    &trans      &trans       &kp DELETE  &trans                                                   &trans
             >;
         };
 
         NUM {
             bindings = <
-&trans  &kp N1            &kp N2             &kp N3          &kp N4           &kp N5         &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &kp MINUS
-&trans  &trans            &trans             &trans          &trans           &kp BACKSLASH  &trans  &kp N4  &kp N5  &kp N6  &trans    &kp ASTERISK
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE       &trans  &kp N0  &kp N1  &kp N2  &kp N3    &kp SLASH
-        &trans            &trans             &trans          &trans           &trans         &trans  &trans                  &kp PLUS
+&trans  &kp N1            &kp N2             &kp N3          &kp N4           &kp N5         &kp N6  &kp N7  &kp N8        &kp N9    &kp N0     &kp MINUS
+&trans  &trans            &trans             &trans          &trans           &kp BACKSLASH  &trans  &trans  &kp UP_ARROW  &trans    &trans     &kp ASTERISK
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE       &trans  &trans  &kp LEFT      &kp DOWN  &kp RIGHT  &kp SLASH
+        &trans            &trans             &trans          &trans           &trans         &trans  &trans                          &kp PLUS
             >;
         };
 
