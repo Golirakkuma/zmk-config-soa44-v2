@@ -37,12 +37,12 @@
             key-positions = <24 25>;
         };
 
-        Lpare {
+        L_parentheses {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <33 20>;
         };
 
-        Rpare {
+        R_parentheses {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <34 21>;
         };
