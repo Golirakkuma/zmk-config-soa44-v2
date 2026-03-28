@@ -36,6 +36,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        Lpare {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <33 20>;
+        };
+
+        Rpare {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <34 21>;
+        };
     };
 
     macros {
