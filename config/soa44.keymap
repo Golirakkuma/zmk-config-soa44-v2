@@ -113,7 +113,7 @@
         FUNCTION {
             bindings = <
 &kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH                 &kp DOLLAR         &kp PERCENT  &kp CARET   &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&trans     &kp F1           &kp F2       &kp F3                   &kp F4             &kp F5       &trans      &trans         &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE
+&trans     &kp F1           &kp F2       &kp F3                   &kp F4             &kp F5       &trans      &trans         &kp PIPE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE
 &trans     &kp F6           &kp F7       &kp F8                   &kp F9             &kp F10      &trans      &trans         &trans        &kp RC(PAGE_DOWN)     &kp RC(PAGE_UP)        &kp BACKSLASH
            &kp F11          &kp F12      &kp LANG_ZENKAKUHANKAKU  &kp LANG_HIRAGANA  &trans       &kp DELETE  &trans                                             &trans
             >;
