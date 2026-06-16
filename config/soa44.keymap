@@ -69,6 +69,13 @@
             bindings = <&kp LS(LG(S))>;
             label = "SCREENSHOT";
         };
+
+        double_click: double_click {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB1 &mkp MB1>;
+            label = "DOUBLE_CLICK";
+        };
     };
 
     behaviors {
@@ -103,10 +110,10 @@
 
         MOUSE {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7          &kp F8    &kp F9              &kp F10              &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP  &mkp MB1        &mkp MB3  &mkp MB2            &trans               &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(W)     &msc SCRL_DOWN  &trans    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans        &trans                                        &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7          &kp F8         &kp F9              &kp F10              &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP  &mkp MB1        &double_click  &mkp MB2            &trans               &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(W)     &msc SCRL_DOWN  &trans         &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans        &trans                                             &trans
             >;
         };
 
